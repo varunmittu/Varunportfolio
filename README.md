@@ -19,7 +19,7 @@ JavaScript: Implemented for interactive elements, dynamic content updates, and f
 Usage
 To view the website locally:
 
-Clone the repository: git clone https://github.com/varunmittu/portfolio.git
+Clone the repository: git clone https://github.com/varunmittu/Varunportfolio
 Open the index.html file in your web browser.
 
 Contributing
