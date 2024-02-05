@@ -10,8 +10,11 @@ About Me: Offers insights into my background, interests, and aspirations as a we
 Contact Form: Allows visitors to reach out to me directly through a contact form, facilitating communication and collaboration opportunities.
 
 Technologies Used:
+
 HTML: Used for structuring the content and layout of the website.
+
 CSS: Employed for styling and customizing the visual appearance of the website, including layout, colors, fonts, and animations.
+
 JavaScript: Implemented for interactive elements, dynamic content updates, and form validation.
 Usage
 To view the website locally:
