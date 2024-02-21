@@ -1,4 +1,4 @@
-1*{
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -815,7 +815,7 @@ margin-bottom: 5rem;
 .tiltcard{
   width: 450px;
   height:350px;
-  background: url("https://github.com/varunmittu/Varunportfolio/blob/main/IMAGES/rent_era_logo.jpeg")no-repeat  450% 350%;
+  background: url("IMAGES/rent_era_logo.jpeg")no-repeat  50% 50%;
   background-position: center bottom;
   margin-bottom: 5%;
   border-radius: 10%;
