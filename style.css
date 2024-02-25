@@ -812,25 +812,49 @@ margin-left: 25rem;
 margin-bottom: 5rem;
 }
 
-.tiltcard{
-  width: 450px;
-  height:350px;
-  background: url("IMAGES/rent_era_logo.jpeg")no-repeat  50% 50%;
-  background-position: center bottom;
+  .container{
+    /* Safari */
+    display: flex;
+    -webkit-flex-wrap: wrap; /* Safari 6.1+. Chrome  22+, FF 22+, IE 10 */
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 60px;
+  }
+  
+ .tiltcard{
+  width: 300px;
+  height:400px;
+  background: url(IMAGES/rent_era_logo.jpeg)no-repeat ;
+  background-size: 180px  200px;
+  background-position: center top;
+  background-color: transparent;
+  margin-top: 10%;
   margin-bottom: 5%;
-  border-radius: 10%;
+  border-radius: 10% ;
   border: 1px solid rgba(255,255,255,0.18);
-  display:inline-flex;
-  margin-left:30px;
-  margin-right: 20px;
-  flex-direction: row-reverse;
-  align-items:center;
-  justify-content: center; 
+  box-sizing:border-box;
+  align-items:last baseline;
+  display: flex;
+  align-content:  bottom;
+  content: bottom;
+  font-size: medium;
+  text-decoration:170px  150px;
   text-align: center;
-  font-size: large;
-  flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.tiltcard:hover {transform: scale(9.5);filter: brightness(90%);}
 
+@media screen and (max-width : 1200px){
+  .tiltcard{ 
+      width: 200px;
+      height: 300px;
+      margin-top: 15%;
+      background:#090a0f;
+      transform: scale(.9);
+
+  }}
 
 .tiltcard2{
   width: 150px;
