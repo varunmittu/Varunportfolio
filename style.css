@@ -812,6 +812,13 @@ margin-left: 25rem;
 margin-bottom: 5rem;
 }
 
+.Projects h2{
+  display:relative;
+  justify-content:center;
+  font-size: 50px;
+  margin-left: 25rem;
+  color:var(--main-color);
+  }
   .container{
     /* Safari */
     display: flex;
@@ -821,99 +828,78 @@ margin-bottom: 5rem;
     justify-content: space-around;
     align-items: stretch;
     gap: 60px;
+    transform: translateY(20%);
   }
+ .card{
+  width: 220px;
+  height:350px;
+  border-radius:25px;
+  overflow: hidden; 
+  border: 1px solid #1f3d47;
+  position: relative;
+ }
+
+ .card-img{
+   width:100%;
+   height:100%;
+   object-fit: cover;
+   border: 5px;
+   background: transparent;
+ }
+ .card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  color: #fff;
+  padding:30px;
+  flex-direction:column;
+  justify-content: center;
+  transition:1s ;
+ }
+ .card:hover .card-body{
+  right:0;
+ }
+ .card-title{
+  text-transform: uppercase;
+  font-size:20px ;
+  font-weight:300;
+ }
+ .card-sub-title{
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight:220;
+ }
+ .card-info{
+  font-size: 13px;
+  line-height:13.5px;
+  margin: 39px 0px;
+  font-weight:500 ;
+  color:#bababa;
+  letter-spacing: 0.3px;
   
- .tiltcard{
-  width: 300px;
-  height:400px;
-  background: url(IMAGES/rent_era_logo.jpeg)no-repeat ;
-  background-size: 180px  200px;
-  background-position: center top;
-  background-color: transparent;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  border-radius: 10% ;
-  border: 1px solid rgba(255,255,255,0.18);
-  box-sizing:border-box;
-  align-items:last baseline;
-  display: flex;
-  align-content:  bottom;
-  content: bottom;
-  font-size: medium;
-  text-decoration:170px  150px;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.tiltcard:hover {transform: scale(9.5);filter: brightness(90%);}
 
-@media screen and (max-width : 1200px){
-  .tiltcard{ 
-      width: 200px;
-      height: 300px;
-      margin-top: 15%;
-      background:#090a0f;
-      transform: scale(.9);
+ }
+ .card-btn{
+  color: #1b2735;
+  background: #FFFF00;
+  padding:15px 5px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  align-items:first baseline;
+  border:none;
+  outline:none;
+  font-weight:700;
+  cursor:pointer;
+  width:80px;
+  height: 40px;
+  transform: translateY(-20px);
+ }
 
-  }}
-
-.tiltcard2{
-  width: 150px;
-  height:250px;
-  background: url(IMAGES/ediotd\ minions-ultra-hd-minions-.png)no-repeat 50% 50%;
-  margin-bottom: 5%;
-  border-radius: 10%;
-  border: 1px solid rgba(255,255,255,0.18);
-  display:inline-flex;
-  margin-left:30px;
-  margin-right: 20px;
-  flex-direction: row-reverse;
-  align-items:center;
-  justify-content: center;
-  text-align: center;
-  font-size: large;
-  flex-direction: column;
-}
-
-
-.tiltcard3{
-  width: 150px;
-  height:250px;
-  background: url(IMAGES/minion-wallpaper-1920x1080-removebg-preview.png)no-repeat 50% 50% ;
-  background-position:center bottom;
-  margin-bottom: 5%;
-  border-radius: 10%;
-  border: 1px solid rgba(255,255,255,0.18);
-  display:inline-flex;
-  margin-left:30px;
-  margin-right: 20px;
-  flex-direction: row-reverse;
-  align-items:center;
-  justify-content: center;
-  text-align: center;
-  font-size: large;
-  flex-direction: column;
-}
-
-.tiltcard4{
-  width: 150px;
-  height:250px;
-  background:url(IMAGES/typk4D-removebg-preview.jpg.png)no-repeat 50% 50%;
-  background-position: center;
-  margin-bottom: 5%;
-  border-radius: 10%;
-  border: 1px solid rgba(255,255,255,0.18);
-  display:inline-flex;
-  margin-left: 20px;
-  margin-right: 20px;
-  float:left 5px ;
-  flex-direction: row-reverse;
-  align-items:center;
-  justify-content: center;
-  text-align: center;
-  font-size: large;
-  flex-direction: column;
-  
-}
 
 .Skills h2{
   display:relative;
