@@ -802,15 +802,9 @@ color: #090a0f;
 
 .btn:hover {
 box-shadow: none;
+}
 
-}
-.Projects h2{
-display:relative;
-justify-content:center;
-font-size: 50px;
-margin-left: 25rem;
-margin-bottom: 5rem;
-}
+
 
 .Projects h2{
   display:relative;
@@ -899,6 +893,10 @@ margin-bottom: 5rem;
   height: 40px;
   transform: translateY(-20px);
  }
+
+
+
+/********skills*///////////
 
 
 .Skills h2{
