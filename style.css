@@ -377,8 +377,8 @@
 
   }
   #stars2{
-     width:2px;
-     height:2px;
+     width:1px;
+     height:1px;
      background: transparent;
      animation: animStar 100s linear infinite;
      box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
@@ -493,8 +493,8 @@
     986px 1529px #fff, 1667px 1137px #fff;
   }
   #stars3{
-    width: 3px;
-    height:3px;
+    width: 2px;
+    height:2px;
     background: transparent;
     animation: animStar 150s linear infinite;
     box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
@@ -529,8 +529,8 @@
     content: '';
     position: absolute;
     top: 3000px;
-    width:3px ;
-    height: 3px;
+    width:2px ;
+    height:2px;
     background:transparent;
     box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,
     948px 1828px #fff, 1977px 1001px #fff, 1284px 1963px #fff, 656px 284px #fff,
@@ -628,7 +628,7 @@
   }
   @keyframes animStar{
     from{
-      transform: translateY(1px);
+      transform: translateY(2px);
       transform: translateX(2px);
     }
     to{
