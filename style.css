@@ -641,7 +641,7 @@
      --bg-color:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
      --second-bg-color:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
      --text-color:#fff;
-     --main-color:  #6B5B95;
+     --main-color:  #ffde22;
      --main1-color:#ffde22;
      --main2-color:#ffde22;
 }
@@ -771,7 +771,7 @@
 }
 .social-icon a:hover i {
   transform: rotate(225deg);
-  color:  #6B5B95;
+  color:  #fff;
 }
 
 .tiltcardDownloadcv{
