@@ -705,7 +705,8 @@
  }
 
  .home-img img {
-   width: 100mm;
+   width: 150mm;
+   height:15mm;
    margin-left: 8px;
    border-radius:50%;
    }
