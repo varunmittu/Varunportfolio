@@ -643,7 +643,7 @@
      --text-color:#fff;
      --main-color: rgb(161, 196, 37);
      --main1-color:#ff0000;
-     --main2-color:#A52A2A;
+     --main2-color:#ffde22;
 }
   html{
     font-size:65.5% ;
@@ -747,10 +747,11 @@
   transition: .3s;
   margin-bottom: 4rem;
 }
+
 .social-icon a:hover{
   background:transparent;
   transform: rotate(135deg);
-  box-shadow:0 0 5px #A52A2A,0 0 10px #A52A2A;
+  box-shadow:0 0 5px #6B5B95,0 0 10px #6B5B95;
 }
 .social-icon a::before {
   content:'';
