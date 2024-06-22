@@ -641,7 +641,7 @@
      --bg-color:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
      --second-bg-color:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
      --text-color:#fff;
-     --main-color:  #ffde22;
+     --main-color:   #ffde22;
      --main1-color:#ffde22;
      --main2-color:#ffde22;
 }
@@ -791,11 +791,11 @@ text-align: center;
 font-size: large;
 flex-direction: column;
 font-style: italic;
-color:  #6B5B95;
+color: #ffde22;
 }
 .tiltcardDownloadcv:hover{
   font-weight: 80;
-  background: linear-gradient(rgba(0, 0, 0, .1),var(--main1-color));
+  background: linear-gradient(rgba(0, 0, 0, .1),var(#6B5B95));
   padding: 0 5rem;
   transform: translate(100%);
 }
@@ -872,7 +872,7 @@ box-shadow: none;
   line-height:13.5px;
   margin: 39px 0px;
   font-weight:500 ;
-  color:#FFFF00;
+  color: #6B5B95;
   letter-spacing: 0.3px;
   
 
