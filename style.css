@@ -632,7 +632,7 @@
       transform: translateX(2px);
     }
     to{
-      transform: translateY(-3000px);
+      transform: translateY(-2000px);
       transform: translateX(-3000px);
     }
     }
