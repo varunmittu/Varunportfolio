@@ -795,7 +795,7 @@ color: #ffde22;
 }
 .tiltcardDownloadcv:hover{
   font-weight: 80;
-  background: linear-gradient(rgba(0, 0, 0, .1),var(#6B5B95));
+  background: linear-gradient(rgba(0, 0, 0, .5),var(#6B5B95));
   padding: 0 5rem;
   transform: translate(100%);
 }
@@ -872,7 +872,7 @@ box-shadow: none;
   line-height:13.5px;
   margin: 39px 0px;
   font-weight:500 ;
-  color: #6B5B95;
+  color: #ff0000;
   letter-spacing: 0.3px;
   
 
