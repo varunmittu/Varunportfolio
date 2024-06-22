@@ -641,7 +641,7 @@
      --bg-color:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
      --second-bg-color:radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
      --text-color:#fff;
-     --main-color: rgb(161, 196, 37);
+     --main-color:  #6B5B95;
      --main1-color:#ffde22;
      --main2-color:#ffde22;
 }
@@ -766,12 +766,12 @@
 }
 .social-icon a i{
   font-size:25px;
-  color: #fff;
+  color:  #fff;
   transition: .3s;
 }
 .social-icon a:hover i {
   transform: rotate(225deg);
-  color: #fff;
+  color:  #6B5B95;
 }
 
 .tiltcardDownloadcv{
@@ -791,7 +791,7 @@ text-align: center;
 font-size: large;
 flex-direction: column;
 font-style: italic;
-color: #090a0f;
+color:  #6B5B95;
 }
 .tiltcardDownloadcv:hover{
   font-weight: 80;
