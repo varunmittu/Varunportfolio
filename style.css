@@ -707,7 +707,7 @@
  .home-img img {
    width: 100mm;
    margin-left: 8px;
-
+   border-radius:50%;
    }
 
  .home-content h3{
