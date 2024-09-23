@@ -523,42 +523,22 @@ var VanillaTilt = (function () {
       navbar.classList.toggle('active');
     };
     /*========= ========================== ================ scroll section avtive link ======================== =====*/
-    let sections = document.querySelectorAll('section');
-    let navLinks = document.querySelectorAll('header nav a');
-
-    window.onscroll =() => {
-      sections.forEach(sec =>{
-        let tap =window.scrollY;
-        let offset = sec.offsetTop -150;
-        let height = sec.getAttribute('id');
-
-        if(top >= offset &&top < offset + height){
-          navLinks.forEach(link => {
-             links.classList.remove('active');
-             document.querySelector('header nav a[href*='+ id +']').classList.add('active');
-          });
-
-        };
-      });
-        <script>
     // Initialize ScrollReveal
-    const sr = ScrollReveal({
-        origin: 'top',     // The element will come from the top
-        distance: '50px',  // Distance the element moves
-        duration: 1000,    // Duration of the animation in milliseconds
-        delay: 200,        // Delay before the animation starts
-        reset: true        // Animation happens every time you scroll back
-    });
+const sr = ScrollReveal({
+    distance: '80px',   // Increased distance for a more noticeable effect
+    duration: 1500,     // Slower animation duration
+    delay: 300,         // Delay before animation starts
+    reset: true         // Animation happens every time you scroll back
+});
 
-    // Apply ScrollReveal to elements
-    sr.reveal('.home-content', { origin: 'left', delay: 300 });
-    sr.reveal('.home-img', { origin: 'right', delay: 400 });
-    sr.reveal('.Projects .heading', { delay: 300 });
-    sr.reveal('.Projects .card', { interval: 200 });
-    sr.reveal('.Skills .heading', { delay: 300 });
-    sr.reveal('.Skills .box', { interval: 200 });
-    sr.reveal('.contact', { origin: 'bottom', delay: 300 });
-</script>
+// Apply ScrollReveal to different sections
+sr.reveal('.home-content', { origin: 'left' });
+sr.reveal('.home-img', { origin: 'right' });
+sr.reveal('.Projects .heading', { origin: 'top', interval: 200 });
+sr.reveal('.Projects .card', { origin: 'bottom', interval: 200 });
+sr.reveal('.Skills .heading', { origin: 'top' });
+sr.reveal('.Skills .box', { interval: 100 });
+sr.reveal('.contact', { origin: 'bottom', interval: 200 });
 
       /*========= ========================== ================ sticky navbar ======================== =====*/
       let header = document.querySelector('header');
