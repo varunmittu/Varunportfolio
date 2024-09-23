@@ -540,6 +540,26 @@ var VanillaTilt = (function () {
 
         };
       });
+        <script>
+    // Initialize ScrollReveal
+    const sr = ScrollReveal({
+        origin: 'top',     // The element will come from the top
+        distance: '50px',  // Distance the element moves
+        duration: 1000,    // Duration of the animation in milliseconds
+        delay: 200,        // Delay before the animation starts
+        reset: true        // Animation happens every time you scroll back
+    });
+
+    // Apply ScrollReveal to elements
+    sr.reveal('.home-content', { origin: 'left', delay: 300 });
+    sr.reveal('.home-img', { origin: 'right', delay: 400 });
+    sr.reveal('.Projects .heading', { delay: 300 });
+    sr.reveal('.Projects .card', { interval: 200 });
+    sr.reveal('.Skills .heading', { delay: 300 });
+    sr.reveal('.Skills .box', { interval: 200 });
+    sr.reveal('.contact', { origin: 'bottom', delay: 300 });
+</script>
+
       /*========= ========================== ================ sticky navbar ======================== =====*/
       let header = document.querySelector('header');
 
