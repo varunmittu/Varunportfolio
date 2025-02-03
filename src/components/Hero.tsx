@@ -55,7 +55,7 @@ const Hero = () => {
           >
             <img
               src="src/components/WhatsApp Image 2024-05-19 at 21.01.10_09511a3d.jpg"
-              alt="Varun Pendkar"
+              alt="MM"
               className="w-64 h-64 rounded-full object-cover shadow-xl border-4 border-indigo-400"
             />
           </motion.div>
