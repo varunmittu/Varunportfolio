@@ -34,7 +34,7 @@ const About = () => {
                   <li>🎓 B.Tech in Electronics and Communication Engineering</li>
                   <li>💼 Full Stack Developer at Qtenet Technologies Pvt.Ltd</li>
                   <li>🌍 Based in Hyderabad, India</li>
-                  <li>📞 +91 8309732876</li>
+                  <li>📞 8309732876</li>
                 </ul>
               </div>
             </div>
