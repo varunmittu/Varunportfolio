@@ -55,7 +55,7 @@ const About = () => {
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-700">
                 <h3 className="text-xl font-semibold text-white mb-4">Experience</h3>
                 <p className="text-gray-300">Full Stack Developer</p>
-                <p className="text-gray-400">Qtenet Technologies Pvt.Ltd, April 2023 – May 2024</p>
+                <p className="text-gray-400">EX-Qtenet Technologies Pvt.Ltd, April 2023 – May 2024</p>
               </div>
             </div>
           </div>
