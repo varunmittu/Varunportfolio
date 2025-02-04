@@ -32,7 +32,7 @@ function App() {
               <img
                 src="src/WhatsApp Image 2024-05-19 at 21.01_edited.jpg"
                 alt=""
-                className="w-50 h-50 rounded-full mx-auto border-4 border-indigo-400"
+                className="w-42 h-42 rounded-full mx-auto border-4 border-indigo-400"
               />
             </div>
             <h1 className="text-5xl font-bold mb-4">Sai Varun Pendkar</h1>
