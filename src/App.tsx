@@ -30,9 +30,11 @@ function App() {
           >
             <div className="mb-8">
               <img
-                src=""
-                <a href="https://ibb.co/RG0NFspD"><img src="https://i.ibb.co/8n5bCfD7/Whats-App-Image-2024-05-19-at-21-01-edited.jpg" alt="Whats-App-Image-2024-05-19-at-21-01-edited" border="0" /></a>
-                alt=""
+                
+                <a href="https://ibb.co/RG0NFspD">
+                  <img src="https://i.ibb.co/8n5bCfD7/Whats-App-Image-2024-05-19-at-21-01-edited.jpg" 
+                alt="Whats-App-Image-2024-05-19-at-21-01-edited" border="0" /></a>
+                
                 className="w-32 h-32 rounded-full mx-auto border-5 border-indigo-400"
               />
             </div>
