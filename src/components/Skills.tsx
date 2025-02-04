@@ -41,7 +41,8 @@ const certifications = [
   'MongoDB Developers (Geeks for Geeks)',
   'Artificial Intelligence & Machine Learning (IBM)',
   'Artificial Intelligence Fundamentals (IBM)',
-  'Generative AI (AWS)',
+  'Generative AI (AWS)',\
+  'Java (HackerRank),
 ];
 
 const Skills = () => {
