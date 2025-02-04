@@ -32,7 +32,7 @@ function App() {
               <img
                 src="https://imgur.com/qaJj7vV"
                 alt=""
-                className="w-42 h-42 rounded-full mx-auto border-4 border-indigo-400"
+                className="w-102 h-102 rounded-full mx-auto border-4 border-indigo-400"
               />
             </div>
             <h1 className="text-5xl font-bold mb-4">Sai Varun Pendkar</h1>
