@@ -31,8 +31,8 @@ function App() {
             <div className="mb-8">
               <img
                 src="https://imgur.com/qaJj7vV"
-                alt=""
-                className="w-60 h-60 rounded-full mx-auto border-4 border-indigo-400"
+                alt="https://imgur.com/qaJj7vV"
+                className="w-50 h-50 rounded-full mx-auto border-4 border-indigo-400"
               />
             </div>
             <h1 className="text-5xl font-bold mb-4">Sai Varun Pendkar</h1>
