@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'Xverse Meta',
     description: 'Innovative metaverse technology solutions platform focusing on immersive digital experiences and virtual reality applications.',
-    image: 'https://images.unsplash.com/photo-1614729939124-032d1e6c9945?w=500&h=300&fit=crop',
+    image: 'https://images.app.goo.gl/ULt2phHgURDbvqBQ8',
     link: 'https://xversemeta.tech/',
     tech: ['React', 'Three.js', 'WebGL', 'VR'],
   },
