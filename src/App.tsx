@@ -30,7 +30,7 @@ function App() {
           >
             <div className="mb-8">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80"
+                src="https://ibb.co/RG0NFspD"
                 alt="Sai Varun Pendkar"
                 className="w-32 h-32 rounded-full mx-auto border-4 border-indigo-400"
               />
