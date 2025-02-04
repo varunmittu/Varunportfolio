@@ -30,9 +30,9 @@ function App() {
           >
             <div className="mb-8">
               <img
-                src="WhatsApp Image 2024-05-19 at 21.01_edited.jpg"
+                src=""
                 alt=""
-                className="w-12 h-12 rounded-full mx-auto border-5 border-indigo-400"
+                className="w-32 h-32 rounded-full mx-auto border-5 border-indigo-400"
               />
             </div>
             <h1 className="text-5xl font-bold mb-4">Sai Varun Pendkar</h1>
