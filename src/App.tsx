@@ -30,7 +30,7 @@ function App() {
           >
             <div className="mb-8">
               <img
-                src="https://ibb.co/RG0NFspD"
+                src="https://imgur.com/a/mNu6EFq"
                 alt="Sai Varun Pendkar"
                 className="w-32 h-32 rounded-full mx-auto border-4 border-indigo-400"
               />
