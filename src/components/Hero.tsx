@@ -17,7 +17,7 @@ const Hero = () => {
               Hi, I'm <span className="text-indigo-400">Varun Pendkar</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Full Stack Developer specializing in creating beautiful and functional web applications
+              Software Developer specializing in creating beautiful and functional web applications
             </p>
             <div className="flex space-x-4">
               <a
