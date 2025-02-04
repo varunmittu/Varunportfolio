@@ -54,7 +54,7 @@ const Hero = () => {
             className="flex-1 flex justify-center"
           >
             <img
-              src="WhatsApp Image 2024-05-19 at 21.01.10_09511a3d.jpg"
+              src="src/components/WhatsApp Image 2024-05-19 at 21.01.10_09511a3d.jpg"
               alt="VARUN PENDKAR"
               className="w-64 h-64 rounded-full object-cover shadow-xl border-4 border-indigo-400"
             />
