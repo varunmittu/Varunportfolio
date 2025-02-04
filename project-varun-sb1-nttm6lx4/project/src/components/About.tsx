@@ -23,7 +23,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-300 leading-relaxed">
-               A Dynamic and results-driven Software Developer with expertise in MERN stack, Python, and Java. 
+               B Dynamic and results-driven Software Developer with expertise in MERN stack, Python, and Java. 
                 Skilled in designing, developing, and deploying scalable web and mobile applications. 
                 Proficient in cloud services, DevOps processes, and container orchestration tools like Docker and Kubernetes.
                 Passionate about solving complex problems, driving innovation, and delivering impactful solutions across diverse industries.
