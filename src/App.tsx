@@ -30,7 +30,7 @@ function App() {
           >
             <div className="mb-8">
               <img
-                src="src/WhatsApp Image 2024-05-19 at 21.01_edited.jpg"
+                src="WhatsApp Image 2024-05-19 at 21.01_edited.jpg"
                 alt=""
                 className="w-42 h-42 rounded-full mx-auto border-4 border-indigo-400"
               />
