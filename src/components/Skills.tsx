@@ -42,7 +42,7 @@ const certifications = [
   'Artificial Intelligence & Machine Learning (IBM)',
   'Artificial Intelligence Fundamentals (IBM)',
   'Generative AI (AWS)',\
-  'Java (HackerRank),
+  'Java (HackerRank)',
 ];
 
 const Skills = () => {
