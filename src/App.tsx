@@ -32,11 +32,11 @@ function App() {
               <img
                 src="https://imgur.com/qaJj7vV"
                 alt=""
-                className="w-102 h-102 rounded-full mx-auto border-4 border-indigo-400"
+                className="w-60 h-60 rounded-full mx-auto border-4 border-indigo-400"
               />
             </div>
             <h1 className="text-5xl font-bold mb-4">Sai Varun Pendkar</h1>
-            <p className="text-xl text-gray-300">Full Stack Developer</p>
+            <p className="text-xl text-gray-300">SOFTWARE Developer</p>
             <div className="flex justify-center gap-6 mt-8">
               <motion.a
                 href={socialLinks.github}
